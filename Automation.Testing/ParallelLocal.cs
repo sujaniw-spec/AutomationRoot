@@ -58,9 +58,7 @@ namespace Automation.Testing
         public void GoToRemoteUrlChromeNode5566_1()
         {
             ChromeOptions options = new ChromeOptions();
-            //  options.AddArguments("browserName", "MicrosoftEdge");
-            //  options.AddArguments("nodeName", "Node2");
-            
+                        
             //http://100.124.17.23:5566/wd/hub
 
             var driver = new RemoteWebDriver(
